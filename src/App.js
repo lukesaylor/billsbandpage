@@ -1,26 +1,48 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Navigation from './Navbar';
+import Home from './Home';
+import Media from './Media';
+import Contact from './Contact';
+import About from './About';
+import 'tachyons';
+import { HashRouter as Router, Route } from "react-router-dom";
+
+
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <body>
+        <div>
+        <Navigation/> 
+          <Route path="/" exact render={ 
+            () => {
+              return (<Home/>)
+            }
+          }/>
+          <Route path="/Media" exact render={
+            () => {
+              return (<Media/>)
+            }          
+          }/>
+          <Route path="/Contact" exact render={
+            () => {
+              return (<Contact/>)
+            }          
+          }/>
+          <Route path="/About" exact render={
+            () => {
+              return (<About/>)
+            }          
+          }/>
+        </div>
+      </body>
+    </Router>
+     );
 }
 
 export default App;

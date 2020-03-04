@@ -1,0 +1,17 @@
+article {
+    
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    background-image: linear-gradient(to bottom , rgba(69, 161, 157, 0.90),rgba(227,173,85,.45));
+    
+   
+}
+
+.translogo {
+    height: 50%;
+    width: 50%;
+    
+}
+

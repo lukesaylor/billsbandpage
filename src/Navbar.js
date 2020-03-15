@@ -17,7 +17,7 @@ function Navigation () {
             <Link to="/Media" className="buttons"><img src={media} alt="media"/></Link>
             <Link to="/Contact" className="buttons"><img src={contact} alt="contact"/></Link>
             <Link to="/About" className="buttons"><img src={about} alt="about"/></Link>
-            <Link to="/" classname="homelogo"><img src={billslogo} alt="the bills" /></Link>
+            <Link to="/" className="homelogo"><img src={billslogo} alt="the bills" /></Link>
             <a className="facebook" href="http://www.facebook.com/3bills/"><img className="facebook" src={fbicon} alt="medialinks" /></a>
             <img className="youtube" src={youtubeicon} alt="youtube" />
 

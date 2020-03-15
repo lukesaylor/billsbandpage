@@ -1,8 +1,9 @@
 body {
     display: block;
     background-image: url(./jumbobg.jpg);
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
+    background-position: center;
     z-index: 0;
     
   

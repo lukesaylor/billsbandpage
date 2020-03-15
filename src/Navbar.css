@@ -10,12 +10,12 @@
     float: left;
     color: #f2f2f2;
     text-align: center;
-    
-    text-decoration: none;
-    font-size: 50px;
-    font-family: ;
-    border-radius: 20px;
-     
+    size: 2rem;
+    border-radius: .3rem;
+    width: 20%;
+    border: 1px solid rgb(125,120,97);
+    padding: .4rem;
+    margin: auto;
   }
   
   /* Change the color of links on hover */
@@ -31,23 +31,26 @@
     color: white;
   }
 
-  .topnav img {
+  .homelogo {
     float: right;
     border: 1px solid rgb(125,120,97);
-    border-radius: 8px;
-    padding: 5px;
-    width: 135px;
+    border-radius: .3rem;
+    padding: .4rem;
+    size: 2rem;
+    width: 20%;
   }
 
   .topnav img.facebook{
     border: none;  
     border-radius: 20px;
-    width: 50px;
-    margin-right: 50px;
+    width: 5%;
+    margin-right: 0px;
+    float: right;
   }
   .topnav img.youtube{
     border-radius: 20px;
     border: none;
-    width: 50px;
-    margin-right: 1px;
+    width: 5%;
+    margin-right: 0px;
+    float: right;
 }

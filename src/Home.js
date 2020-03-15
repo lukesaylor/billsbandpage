@@ -18,9 +18,9 @@ function Home () {
                     <img src={billstranslogo} className="translogo" alt="the bills"/>
                     
                 </div>
-                    <p className=" measure-wide center f4 black-70">
+                     
                     
-                    </p>
+                    
                     
                     
             </article>

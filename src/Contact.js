@@ -23,9 +23,9 @@ function Contact () {
                      The Bills can be contacted for booking or general inquiries at:
                      </h1>
                      <ul className="center pa5 f4">
-                         <li>Email: BandofBills@Gmail.com</li>
-                         <li>Facebook: @3bills or www.facebook.com/3bills</li>
-                         <li>Phone/Text: 1-302-339-2012</li>
+                         <li>Email: <br></br>BandofBills@Gmail.com</li>
+                         <li>Facebook:<br></br> @3bills or www.facebook.com/3bills</li>
+                         <li>Phone/Text: <br></br>1-302-339-2012</li>
                      </ul>
                     
                     

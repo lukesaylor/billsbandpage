@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a51ee57a7087acff1ddb26413be25067",
+    "revision": "23e72b6b6623a8e0a939da3ebd141ea7",
     "url": "/billsbandpage/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/billsbandpage/static/css/2.eb45ad44.chunk.css"
   },
   {
-    "revision": "0c78246a5756e6e292c2",
-    "url": "/billsbandpage/static/css/main.f4372d9c.chunk.css"
+    "revision": "f3494f9a5b432e90b2ac",
+    "url": "/billsbandpage/static/css/main.ebeb5d09.chunk.css"
   },
   {
     "revision": "4fa19be2ab2084163c35",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/billsbandpage/static/js/2.2be97aa6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0c78246a5756e6e292c2",
+    "revision": "f3494f9a5b432e90b2ac",
     "url": "/billsbandpage/static/js/main.78e1bc5a.chunk.js"
   },
   {

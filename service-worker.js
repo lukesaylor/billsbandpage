@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/billsbandpage/precache-manifest.9550dd6e308dc10e8cd916358c6f0bec.js"
+  "/billsbandpage/precache-manifest.5a43b505989c3a063a0c9fbbccf0d9ae.js"
 );
 
 self.addEventListener('message', (event) => {
